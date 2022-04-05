@@ -1,0 +1,176 @@
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	display: none;
+}
+.top-img img {
+	height: 80px;
+	position: absolute;
+	z-index: 999;
+  width: 60px;
+   
+}
+.top-img {
+	position: absolute;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	top: -20px;
+    
+}
+.carousel-inner {
+	margin-top: 20px;
+}
+.carousel-item{
+position: relative;
+}
+.carousel-item h1 {
+	position: absolute;
+    width: 100%;
+    color:#fff;
+    text-align: center;
+    margin-top: 80px;
+    z-index: 999;
+}
+.form-section{
+width: 100%;
+max-width:500px;
+height: 220px;
+background: #fff;
+position: absolute;
+top:30%;
+left:50%;
+transform: translate(-50%,-50%);
+border-radius: 15px;
+z-index: 999;
+}
+.top-box{
+width: 100px;
+height: 100px;
+background: #fff;
+position: absolute;
+top:0%;
+left:50%;
+transform: translate(-50%,-50%);
+border-radius:50% ;
+
+}
+.left
+{
+width: 20px;
+height: 20px;
+transition: .5s;
+position: absolute;
+top:20%;
+left:40%;
+transform: translate(-50%,-50%);
+box-shadow: -2px 2px 0 #D9141E;
+}
+.top-box .two{
+margin-top: 10px;
+box-shadow: -2px 2px 0 #13133B;
+}
+.top-box .three{
+    margin-top: 20px;
+    box-shadow: -2px 2px 0 #707070;
+    }
+.left{
+    transform: rotate(313deg);
+}
+.content{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    z-index: 999;
+    position: relative;
+    font-weight: bold;
+}
+.content p{
+font-size: 16px;
+}
+button{
+    outline: none;
+    border: none;
+    width: 110px;
+    background: #D9141E;
+    color: #fff;
+    border-radius:50px ;
+    font-size: 16px;
+}
+.button-left{
+    background: #070268;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(13, 7, 7, 0.427);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content h2{
+    font-size: 22px;
+    font-weight: bold;
+}
+.custom{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 60%;
+    padding: 10px 10px;
+    background: #D9141E;
+    text-align: center;
+    line-height: 20px;
+   
+
+}
+ select{
+    background: none;
+    border-radius: 50px;
+    padding: 5px 18px;
+    appearance: none;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border: 1px solid #000;
+    
+}
+.month {
+    display: inline-block;
+    position: relative;
+}
+.month .icon i{
+    position: absolute;
+    top:30px;
+    right: 15px;
+    pointer-events: none;
+}
+.day{
+    display: inline-block;
+    position: relative;
+   
+}
+.day select {
+    padding: 5px 20px;
+    padding-right: 70px;
+}
+.day .icon i{
+    position: absolute;
+    top:30px;
+    right: 15px;
+    pointer-events: none; 
+}
+.year select {
+    padding: 5px 20px;
+    padding-right: 55px;
+}
+.year{
+    display: inline-block;
+    position: relative;
+   
+}
+.year .icon i{
+    position: absolute;
+    top:30px;
+    right: 15px;
+    pointer-events: none; 
+}
