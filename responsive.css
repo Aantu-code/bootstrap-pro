@@ -5,9 +5,7 @@
         
         }
 }
-@media screen and (max-width:1008px) {
-    
-}
+
 @media screen and (max-width:1024px) {
     .form-section {  
         max-width: 650px;
@@ -200,11 +198,14 @@
 }
 
 @media screen and (max-width:420px){
+    .form-section h2 {
+        padding:10px 10px
+    }
     .form-section,
     .form-section.another-form-section,
     .form-section.new-form-section.three-section,
     .form-section.new-form-section  {
-        top: 55%;
+        top: 60%;
         width: 370px;
     }
     .form-section.new-form-section.three-section h2 {
